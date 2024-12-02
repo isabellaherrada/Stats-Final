@@ -1,4 +1,1 @@
-## Project:  STA 215, Fall 2024, Final Project
-# File Name: template
-# Date:      2024_02_02
-# Who:       Isabella Herrada
+My replication package for STA 215 Final Project. I looked into different television shows and their corresponding episodes and analyzed the lengths (in minutes) of each episode, the date they were released, tone of the episode, how many writers per episode, etc. I sought out discover if there is a relation or connection between television episodes of different shows.
