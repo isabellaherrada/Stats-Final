@@ -2,20 +2,13 @@
 My replication package for STA 215 Final Project. I looked into different television shows and their corresponding episodes and analyzed the lengths (in minutes) of each episode, the date they were released, tone of the episode, how many writers per episode, etc. I sought out discover if there is a relation or connection between television episodes of different shows.
 
 ## **Instructions**
-To access and utilize the script, open the "STA215-HERRADA.R" file, which contains the code for my project. To access the dataset, open the "UPDATED FINAL PROJ DATASET - Sheet1 (2).csv" file.
+To access and utilize the script, open the "STA215-HERRADA.R" file, which contains the code for my project. 
 
 ## **Data**
-The data collected for this project was episodes from four different television shows (Suits. Only Murders in the Building, Breaking Bad, and Demon Slayer: Kimetsu no Yaiba. The main goal of my analysis was to determine if 
+The data collected for this project was episodes from four different television shows (Suits. Only Murders in the Building, Breaking Bad, and Demon Slayer: Kimetsu no Yaiba. I used 4 unique variables throughout my paper(Tone, Writers, Cast, Funny). The varibale tone was used to describe the general feeling of the episode. I analyzed and documented the number of writers per episode of each show. For cast, I recorded the number of cast memebers for each episode. For the varible funny, I measured to see if the characters in each episode laughed or not to determine if the episode was funny or not. 
 
 ## **Operationalization**
-To operationalize number of listens, I went to Spotify and took down the number of streams each song had received in its history. 
-
-I did the same for finding song length, going to Spotify and converting the length of each song into seconds
-
-The concept of song description was operationalized by reviewing the discography and coming up with a few adjectives that could describe a good amount of songs. Psychedelic songs are ones that fit mostly into the psychedelic rock genre along with some other songs that were "trippy" in nature. Aggressive songs are either their punk-y or metal songs that were fast-paced and loud. Upbeat songs are, as the name suggests, more upbeat and happier, more pleasant-sounding. Groovy songs are the ones that have a defined, hard to ignore groove that makes the listener want to move. Chill songs are often down-tempo, mellow songs with softer instrumentation. Heavy songs are down-tempo but with louder, harder, and more distorted instrumentation. Lastly is Other, for those songs that did not easily fit into the other descriptors. 
-
-The concept of song topic was operationalized in a similar way. After reviewing each song's lyrics, I came up with a few categories that most songs fit into. Love/Relationship includes songs that are primarily about relationships and on less frequent occasions, the concept of love itself. Narrative songs have a cohesive story in the lyrical content. Person/Character songs are about individual people or characters, while a narrative song may have characters, person/character songs focus on an individual, not the story. Societal Issue songs are about struggles that greater society faces. The Other category once again acting as a catch-all for songs that don't easily fit into the other topics. 
-
-I measured my personal enjoyment on a scale of 1-10 with 1 meaning I disliked the song and 10 meaning I loved the song. 
-
-My final variable was the album each song was on. This was used as a grouping variable to measure differences between not just songs but whole albums.
+To operationalize number of cast, I went on IMDB.com and went episode by episode are recored based on what IMDB.com said how many cast members were in each episode. 
+I did the same thing for writers, went on IMDB.com and searched to see how many writers were credited on each episode. 
+To analyze the tone of each episode, I watched the episode in full and noted what the main tone/feeling was for each episode. I had a list of tones that I could pick from (inspirational, narrative, melancholic, humor, serious, irronic, romantic and somber) that would describe each epsiode best, then assigningeach tone a specific number (1-8) and noting that down. 
+My final variable was funny, I measured this by looking if the characters in each episode laughed or were laughing. This would inform me if the episode itself was funny or not. I noted this as a binary varible with 0 being No and 1 being Yes. 
