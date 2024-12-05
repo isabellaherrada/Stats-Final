@@ -5,7 +5,7 @@ My replication package for STA 215 Final Project. I looked into different televi
 To access and utilize the script, open the "STA215-HERRADA.R" file, which contains the code for my project. 
 
 ## **Data**
-The data collected for this project was episodes from four different television shows (Suits. Only Murders in the Building, Breaking Bad, and Demon Slayer: Kimetsu no Yaiba. I used 4 unique variables throughout my paper(Tone, Writers, Cast, Funny). The varibale tone was used to describe the general feeling of the episode. I analyzed and documented the number of writers per episode of each show. For cast, I recorded the number of cast memebers for each episode. For the varible funny, I measured to see if the characters in each episode laughed or not to determine if the episode was funny or not. 
+The data collected for this project was episodes from four different television shows (Suits. Only Murders in the Building, Breaking Bad, and Demon Slayer: Kimetsu no Yaiba. I used 4 unique variables throughout my paper (Tone, Writers, Cast, Funny). The variable tone was used to describe the general feeling of the episode. I analyzed and documented the number of writers per episode of each show. For cast, I recorded the number of cast memebers for each episode. For the varible funny, I measured to see if the characters in each episode laughed or not to determine if the episode was funny or not. 
 
 ## **Operationalization**
 To operationalize number of cast, I went on IMDB.com and went episode by episode are recored based on what IMDB.com said how many cast members were in each episode. 
