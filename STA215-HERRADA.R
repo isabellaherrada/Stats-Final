@@ -3,7 +3,7 @@ setwd("H:/sta215")
 
 #Load Packages
 library(readr)
-library(haven)2
+library(haven)
 library(dplyr)
 library(psych)
 library(ggplot2)
@@ -17,6 +17,10 @@ table(data$tone)
 table(data$funny)
 describe(data)
 sd(data$writers)
+sd(data$cast)
+min(data$cast)
+max(data$cast)
+mean(data$cast)
 
 #Table 2
 table(data$tone, data$funny)
@@ -24,32 +28,18 @@ table(data$tone, data$funny)
 #Chi squared test table(data$tone, data$funny)
 chisq.test(data$funny, data$tone)
 
-#Box Plot
+# Box Plot
 ggplot(data, aes(x = as.factor(tone), y = writers)) +
-  geom_boxplot() + 
-
+  geom_boxplot() +
   labs(
-    title = "Distribution of Number of Writers by Tone of Episode", 
-    x = "Tone of Episode", 
-    y = "Number of Writers"
+    title = "Distribution of Number of Writers by Tone of Episode",  
+    x = "Tone of Episode",  
+    y = "Number of Writers"  
   ) +
   theme_minimal()
 
 #Scatter Plot 
- lm_model <- lm(cast ~ writers, data = data)
-  ggplot(data, aes(x = writers, y = cast)) +
-    geom_point() + 
-    geom_smooth(method = "lm", se = FALSE, color = "blue") +  # Linear regression line
-    labs(
-      title = "Distribution of Number of Writers by Number of People Casted in the Episode",
-      x = "Number of Writers", 
-      y = "Number of People Casted"
-    ) +
-    theme_minimal()
-  summary(lm_model)
-  
-
-  lm_model <- lm(cast ~ writers, data = data)
+lm_model <- lm(cast ~ writers, data = data)
   mean_writers <- mean(data$writers, na.rm = TRUE)
   mean_cast <- mean(data$cast, na.rm = TRUE)
   ggplot(data, aes(x = writers, y = cast)) +
